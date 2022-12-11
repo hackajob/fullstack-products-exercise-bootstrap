@@ -1,3 +1,3 @@
-module hackajob.co/fullstack-pokedex
+module hackajob.co/fullstack-products
 
 go 1.18

@@ -4,17 +4,17 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-class PokedexServiceTest {
+class ProductServiceTest {
 
-    private static final String FIRST_POKEMON = "Bulbasaur";
+    private static final String FIRST_PRODUCT = "6447344";
 
-    private static final String SECOND_POKEMON = "Wartortle";
+    private static final String SECOND_PRODUCT = "3052068";
 
-    private static PokedexService pokedexService;
+    private static ProductService productService;
 
     @BeforeAll
     static void beforeAll() {
-        pokedexService = new PokedexService();
+        productService = new ProductService();
     }
 
     // TODO: Unit test me :)
